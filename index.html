@@ -20,7 +20,7 @@
 <body>
   <p>読み込み中...</p>
   <script>
-    liff.init({ liffId: 2007270483-gybVL0xA })  // ← 自分のLIFF IDに置き換えてください
+    liff.init({ liffId: "2007270483-gybVL0xA" })  // ← 自分のLIFF IDに置き換えてください
       .then(() => {
         const uid = liff.getDecodedIDToken().sub;
         const encodedUid = encodeURIComponent(uid);
